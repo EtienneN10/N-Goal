@@ -1,0 +1,73 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-color: #1e212d;
+    color: #eabf9f;
+}
+
+h1
+{
+    color: #faf3e0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#menu
+{
+    display: flex;
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    height: 100px;
+}
+
+#matchs
+{
+    width: 80%;
+}
+
+#classement
+{
+    width: 20%;
+    float: right;
+}
+
+#matchs_classement
+{
+    display: flex;
+    margin-left: 20%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #eabf9f;
+    border-radius: 20px;
+    padding:20px;
+    background-color: #1e212d;
+}
+
+a:hover
+{
+    padding: 30px;
+    border-radius:30px;
+    color: #f66e08;
+    background-color: #393d52;
+}
+
+header
+{
+    background-color: #eabf9f;
+}
+
+li
+{
+    margin:auto;
+}
